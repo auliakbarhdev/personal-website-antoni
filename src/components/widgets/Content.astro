@@ -15,6 +15,8 @@ const {
   items = [],
   columns,
   image = await Astro.slots.render('image'),
+  imageStyle = 'mx-auto w-full rounded-lg bg-gray-500 shadow-lg',
+  gifImage = undefined,
   isReversed = false,
   isAfterContent = false,
 
@@ -36,7 +38,7 @@ const {
     subtitle={subtitle}
     tagline={tagline}
     classes={{
-      container: 'max-w-xl sm:mx-auto lg:max-w-2xl',
+      container: 'max-w-xl sm:mx-auto lg:max-w-xl',
       title: 'text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading',
       subtitle: 'max-w-3xl mx-auto sm:text-center text-xl text-muted dark:text-slate-400',
     }}
@@ -76,7 +78,7 @@ const {
                 <Fragment set:html={image} />
               ) : (
                 <Image
-                  class="mx-auto w-full rounded-lg bg-gray-500 shadow-lg"
+                  class={imageStyle}
                   width={500}
                   height={500}
                   widths={[400, 768]}
@@ -86,6 +88,15 @@ const {
                 />
               )}
             </div>
+          )
+        }
+        {
+          gifImage && (
+            (
+              <div class="relative m-auto max-w-4xl">
+                <img src={gifImage.src} width={gifImage.width} height={gifImage.height} alt={gifImage.alt} />
+              </div>
+            )
           )
         }
       </div>

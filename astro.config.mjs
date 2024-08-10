@@ -36,6 +36,10 @@ export default defineConfig({
     icon({
       include: {
         tabler: ['*'],
+        flowbite: ['*'],
+        ic: ['*'],
+        iconoir: ['*'],
+        'fluent-mdl2': ['*'],
         'flat-color-icons': [
           'template',
           'gallery',
