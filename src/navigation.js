@@ -1,5 +1,7 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
-import { LINKS, linkToWhatsapp } from './utils/cta';
+import { LINKS, linkToWhatsapp, Constants } from './utils/cta';
+
+const { ADDRESS } = Constants;
 
 export const headerData = {
   links: [
@@ -125,7 +127,7 @@ export const headerData = {
       href: getPermalink('/about'),
     },
   ],
-  actions: [{ text: 'Register', href: getPermalink('/register') }],
+  actions: [{ text: 'Buka Akun', href: getPermalink('/register') }],
 };
 
 export const footerData = {
@@ -158,8 +160,8 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'Mirae Asset Sekuritas Indonesia Pluit', href: LINKS.PIN_MAP_OFFICE },
-        { text: 'Jl. Pluit Sakti Raya No.No.31 A 2, RT.2/RW.6, Pluit, Kec. Penjaringan, Jkt Utara, Daerah Khusus Ibukota Jakarta 14450', href: LINKS.PIN_MAP_OFFICE },
+        { text: 'Mirae Asset Sekuritas Indonesia (Pluit)', href: LINKS.PIN_MAP_OFFICE },
+        { text: ADDRESS, href: LINKS.PIN_MAP_OFFICE },
       ],
     },
   ],
@@ -169,10 +171,9 @@ export const footerData = {
     { text: 'Kode Referral: 3103138', href: LINKS.OPEN_ACCOUNT },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
+    { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     { ariaLabel: 'Whatsapp', icon: 'tabler:brand-whatsapp', href: linkToWhatsapp() },
   ],
   footNote: `

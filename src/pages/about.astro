@@ -1,10 +1,15 @@
 ---
-import Features2 from '~/components/widgets/Features2.astro';
-import Features3 from '~/components/widgets/Features3.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import Image from '~/components/common/Image.astro';
+import Antoni from '~/assets/images/antoni.jpg';
+import { linkToWhatsapp, Constants } from "../utils/cta";
+
+const { TEMPLATE_WHATSAPP_MESSAGE: {
+  CLAIM_PROMO,
+}} = Constants;
 
 const metadata = {
   title: 'About',
@@ -16,20 +21,30 @@ const metadata = {
 
   <Hero
     tagline="About"
-    image={{
-      src: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Caos Image',
-    }}
   >
     <Fragment slot="title">
       Antoni <br />
-      <span class="text-accent dark:text-white highlight"> Equity Sales Resmi Mirae Asset Sekuritas</span>
+      <span class="text-primary highlight"> Equity Sales Resmi<br/>Mirae Asset Sekuritas</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       Saya bekerja sebagai Investment Specialist di Mirae Asset Sekuritas Indonesia. Saya berpengalaman dalam mengelola klien investor individu dan korporat, investasi saham, reksadana, ETF, dan bond, dan literasi keuangan. Saya sangat senang berbagi pengalaman saya di pasar modal.
     </Fragment>
+
+    <Fragment slot="image">
+      <div class="flex justify-center items-center">
+        <div class="relative w-80 h-80 overflow-hidden rounded-full shadow-xl">
+          <Image
+            class="absolute object-cover object-top top-0"
+            loading="eager"
+            src={Antoni}
+            alt="Image of Antoni"
+          />
+        </div>
+      </div>
+    </Fragment>
   </Hero>
+  
 
   <!-- Stats Widget ****************** -->
 
@@ -37,8 +52,8 @@ const metadata = {
     title="Statistik mengenai Saya"
     stats={[
       { title: 'Pengalaman', amount: '5+ tahun' },
-      { title: 'Klien Aktif', amount: '248' },
-      { title: 'Nilai Aset Dikelola', amount: '500M' },
+      { title: 'Klien Aktif', amount: '512' },
+      { title: 'Aset di Saham', amount: '90%' },
     ]}
   />
 
@@ -49,8 +64,9 @@ const metadata = {
     subtitle="Percayakan Pak Antoni sebagai Investment Specialist agar dapat berinvestasi dan mengembangkan aset Anda secara efektif."
     isReversed={false}
     callToAction={{
-      text: 'Klaim promo nasabah sekarang juga!',
-      href: '/',
+      text: 'Klaim promo nasabah baru',
+      href: linkToWhatsapp(CLAIM_PROMO),
+      icon: 'tabler:gift-filled',
     }}
     items={[
       {

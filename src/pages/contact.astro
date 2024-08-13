@@ -5,7 +5,7 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import { Constants } from '~/utils/cta';
 
-const { PHONE_NUMBER, EMAIL } = Constants;
+const { PHONE_NUMBER, EMAIL, ADDRESS } = Constants;
 
 const metadata = {
   title: 'Contact',
@@ -60,7 +60,7 @@ const metadata = {
       },
       {
         title: 'Location',
-        description: 'Jl. Pluit Sakti Raya No.No.31 A 2, RT.2/RW.6, Pluit, Kec. Penjaringan, Jkt Utara, Daerah Khusus Ibukota Jakarta 14450',
+        description: ADDRESS,
         icon: 'tabler:map-pin',
       },
     ]}

@@ -28,36 +28,75 @@ const metadata = {
   title: 'Mulai Investasi Saham — Percayakan Investasimu, pada Mirae Asset Sekuritas!',
   ignoreTitleTemplate: true,
 };
+
+
+const targetDate = new Date();
+targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
 ---
+
+<script>
+  function updateCountdown() {
+    const targetDate = new Date();
+    targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
+    const now = new Date();
+    const timeDiff = targetDate - now;
+
+    if (timeDiff <= 0) {
+      document.getElementById('hours').textContent = '0';
+      document.getElementById('minutes').textContent = '0';
+      document.getElementById('seconds').textContent = '0';
+      return;
+    }
+
+    const seconds = Math.floor((timeDiff / 1000) % 60);
+    const minutes = Math.floor((timeDiff / 1000 / 60) % 60);
+    const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
+
+    document.getElementById('hours').textContent = String(hours);
+    document.getElementById('minutes').textContent = String(minutes);
+    document.getElementById('seconds').textContent = String(seconds);
+  }
+
+  setInterval(updateCountdown, 1000);
+  updateCountdown(); // Initial call
+</script>
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
   <Hero
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Buat Akun Sekarang',
-        href: LINKS.OPEN_ACCOUNT,
-        target: '_blank',
-        class: 'w-full sm:mb-0',
-      },
-      { text: 'Claim Promo Sekarang', 
-        href: linkToWhatsapp(CLAIM_PROMO),
-        icon: 'tabler:gift-filled',
-      },
-    ]}
     image={{ src: '~/assets/images/home/main.png', alt: 'Mirae Asset Sekuritas Image' }}
   >
     <Fragment slot="title">
-      Percayakan  <span class="hidden xl:inline">Investasimu</span>, pada
-      <span class="text-accent highlight"> Mirae Asset Sekuritas</span>!
+      Percayakan Investasimu,<br/>pada<br class="md:hidden" />
+      <span class="text-primary highlight"> Mirae Asset Sekuritas</span>!
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold dark:text-white">Buka akun sekarang</span>, dapatkan <span class="font-semibold text-accent dark:text-white">cashback</span> dan hadiah spesial.</span
+      <span class="inline">
+        <span class="font-semibold dark:text-white">Buka akun sekarang</span>! <br class="sm:hidden" />Dapatkan <span class="font-semibold text-accent dark:text-white">cashback</span>, Grup VIP Nasabah dan hadiah spesial.</span
       >
+    </Fragment>
+    
+    <Fragment slot="actions">
+      <div class="max-w-xs sm:max-w-xl m-auto flex flex-nowrap flex-col md:flex-row sm:justify-center gap-4">
+          <Button 
+            class="w-full sm:mb-0"
+            text="Claim Promo Sekarang"
+            variant="primary"
+            href={linkToWhatsapp(CLAIM_PROMO)}
+            icon="tabler:gift-filled"
+            target="_blank"
+          />
+          <Button
+            variant="secondary"
+            target="_blank"
+          >
+            <Fragment slot="text">
+              <span id="hours">0</span>:<span id="minutes">0</span>:<span id="seconds">0</span>
+            </Fragment>
+          </Button>
+        </div>
     </Fragment>
   </Hero>
 
@@ -261,11 +300,13 @@ const metadata = {
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts
-    id="latestpost"
-    title="Ingin tahu lebih banyak? Baca artikel terbaru di Blog kami!"
-    information={`Blog ini bertujuan untuk membagikan pengetahuan dan wawasan tentang dunia investasi. Setiap artikel akan menjadi langkah penting bagi Anda untuk memahami berbagai instrumen investasi, strategi, dan tren pasar terkini. Kami akan membahas topik mulai dari investasi dasar hingga strategi lanjutan, dengan tujuan membantu Anda menjadi investor yang cerdas dan mandiri.`}
-  />
+  <div class="hidden md:block">
+    <BlogLatestPosts
+      id="latestpost"
+      title="Ingin tahu lebih banyak? Baca artikel terbaru di Blog kami!"
+      information={`Blog ini bertujuan untuk membagikan pengetahuan dan wawasan tentang dunia investasi. Setiap artikel akan menjadi langkah penting bagi Anda untuk memahami berbagai instrumen investasi, strategi, dan tren pasar terkini. Kami akan membahas topik mulai dari investasi dasar hingga strategi lanjutan, dengan tujuan membantu Anda menjadi investor yang cerdas dan mandiri.`}
+    />
+  </div>
 
   <!-- FAQs Widget ******************* -->
 
@@ -341,6 +382,9 @@ const metadata = {
         icon: 'tabler:click',
       },
     ]}
+    classes={{
+      card: 'border border-gray-200 dark:border-slate-700',
+    }}
   >
     <Fragment slot="title">
       <span class="sm:whitespace-nowrap">Mulai Investasi Saham</span>
@@ -356,7 +400,7 @@ const metadata = {
 
   <Testimonials
     title="Testimoni klien"
-    subtitle="Temukan apa yang klien katakan tentang pengalaman mereka bekerja dengan saya."
+    subtitle="Temukan apa yang klien katakan tentang pengalaman mereka menjadi nasabah Pak Antoni."
     testimonials={[
       {
         testimonial: `She took our vague concept and turned it into a visual masterpiece that perfectly aligned with our goals. Her attention to detail and ability to translate ideas into compelling visuals exceeded our expectations.`,

@@ -51,5 +51,5 @@ Klik untuk mulai pendaftaran:
 Jika Anda memiliki kendala saat pembukaan akun, hubungi Pak Antoni melalui:
 
 - whatsapp: [+6282213548693](https://wa.me/+6282213548693)
-- email: antonishi18@gmail.com
+- email: antoni@miraeasset.co.id
 
