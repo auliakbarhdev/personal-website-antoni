@@ -1,5 +1,10 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 import { LINKS, linkToWhatsapp, Constants } from './utils/cta';
+import LogoOjk from '~/assets/images/logos/mirae-logo-partner-ojk.png';
+import LogoIdx from '~/assets/images/logos/mirae-logo-partner-idx.png';
+import LogoIdclear from '~/assets/images/logos/mirae-logo-partner-id-clear.png';
+import LogoKsei from '~/assets/images/logos/mirae-logo-partner-ksei.png';
+import LogoSipf from '~/assets/images/logos/mirae-logo-partner-sipf.png';
 
 const { ADDRESS } = Constants;
 
@@ -176,8 +181,4 @@ export const footerData = {
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: LINKS.LINKEDIN },
     { ariaLabel: 'Whatsapp', icon: 'tabler:brand-whatsapp', href: linkToWhatsapp() },
   ],
-  footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://res.cloudinary.com/dargzftrg/image/upload/v1723288482/mirae-asset/favicon/antoni/o0kovdrz8pmgaz6tqvbg.ico" alt="onWidget logo" loading="lazy"></img>
-    Managed by <a class="text-blue-600 underline dark:text-muted" href={${linkToWhatsapp()}}> Antoni</a> · All rights reserved.
-  `,
 };

@@ -22,6 +22,12 @@ export const LINKS = {
   INSTAGRAM: 'https://www.instagram.com/sahaminsight',
   LINKEDIN: 'http://linkedin.com/in/antoni-ft',
   WHATSAPP_GROUP: 'https://chat.whatsapp.com/GxbNAxWu5j26ERZUuGmnNt',
+  // partners
+  OJK: 'https://ojk.go.id/id/Default.aspx',
+  IDX: 'https://www.idx.co.id/id',
+  IDCLEAR: 'https://www.idclear.co.id/id',
+  KSEI: 'https://www.ksei.co.id/',
+  SIPF: 'https://www.indonesiasipf.co.id/',
 };
 
 export const linkToWhatsapp = (message?: keyof typeof TEMPLATE_WHATSAPP_MESSAGE) => {

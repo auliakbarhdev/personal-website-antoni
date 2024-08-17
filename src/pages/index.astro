@@ -8,7 +8,7 @@ import Features from '~/components/widgets/Features.astro';
 import Button from '~/components/ui/Button.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
+import FAQs from '~/components/widgets/FAQsAccordion.astro';
 import InvestmentTypes from '~/components/widgets/InvestmentTypes.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Testimonials from '~/components/widgets/ImageTestimonials.astro';
@@ -346,54 +346,54 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
   </div>
 
   <!-- FAQs Widget ******************* -->
-
+  
   <FAQs
     id="faqs"
-    title="Frequently Asked Questions"
-    subtitle="Berikut beberapa pertanyaan yang sering ditanyakan seputar Mirae Asset Sekuritas."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'Siapakah Mirae Asset Sekuritas Indonesia?',
-        description:
-          "PT Mirae Asset Sekuritas Indonesia adalah perusahaan sekuritas yang menyediakan berbagai layanan investasi, termasuk perantara perdagangan efek, underwriting, reksadana, obligasi, ETF, dan priority wealth management. Didukung oleh Mirae Asset, perusahaan investasi ternama asal Korea Selatan, kami memiliki 27 kantor edukasi yang tersebar di berbagai kota besar di Indonesia.",
-      },
-      {
-        title: 'Berapa besar MKBD dari Mirae Asset Sekuritas?',
-        description:
-          'Memilih sekuritas dengan Modal Kerja Bersih Disesuaikan (MKBD) yang besar sangat penting bagi investor untuk memastikan investasi mereka aman dan mengurangi risiko kebangkrutan sekuritas. MKBD Mirae Asset Sekuritas per juli 2024 mencapai Rp 1,4 Triliun, menjadikannya yang terbesar di Indonesia.',
-      },
-      {
-        title: 'Apakah Mirae Asset Sekuritas legal dan diawasi otoritas?',
-        description:
-          "Mirae Asset Sekuritas secara aktif terdaftar sebagai anggota bursa dan diawasi OJK.",
-      },
-      {
-        title: "Apa saja produk dan layanan Mirae Asset Sekuritas?",
-        description:
-          "Transaksi saham, obligasi untuk ritel dan korporasi, reksa dana, Transaksi saham secara margin (pinjam meminjam) dan Corporate Finance (merger/akuisisi, pencatatan saham dan obligasi di Bursa Efek Indonesia).",
-      },
-      {
-        title: 'Jenis akun apa saja yang dimiliki Mirae Asset Sekuritas?',
-        description:
-          "Ada 4 jenis account yaitu Akun Regular, Akun Margin, Akun Day Trade, dan Akun Syariah.",
-      },
-      {
-        title: 'Berapa Fee transaksi di Mirae Asset Sekuritas?',
-        description:
-          "Fee beli 0,15% jual 0,25% all in, no biaya admin no biaya bulanan no minimum transaksi.",
-      },
-      {
-        title: 'Bagaimana nasabah bertransaksi saham?',
-        description:
-          "Dengan HOTS dekstop dan M-STOCK Mobile nasabah dapat bertransaksi saham kapanpun dan dimanapun selama terhubung dengan internet. HOTS dekstop dan M-STOCK Mobile dilengkapi dengan fitur yang memudahkan Anda bertransaksi saham yaitu Automatic Order, Trailing Stop, Multi Chart, dan lainnya.",
-      },
-      {
-        title: 'Apa keuntungan buka akun Mirae Asset Sekuritas lewat Pak Antoni?',
-        description: 'Free join group VIP Nasabah Mirae Asset Sekuritas, Updates informasi investasi berkualitas tinggi, Konsultasi portfolio, rekomendasi saham Investing dan trading, dibimbing dari nol sampai pro.',
-      },
-    ]}
+    title="Frequently asked questions"
+    faqs={{
+      subTitle: "Berikut beberapa pertanyaan yang sering ditanyakan seputar Mirae Asset Sekuritas.",
+      faqs: [
+        {
+          question: 'Siapakah Mirae Asset Sekuritas Indonesia?',
+          answer:
+            "PT Mirae Asset Sekuritas Indonesia adalah perusahaan sekuritas yang menyediakan berbagai layanan investasi, termasuk perantara perdagangan efek, underwriting, reksadana, obligasi, ETF, dan priority wealth management. Didukung oleh Mirae Asset, perusahaan investasi ternama asal Korea Selatan, kami memiliki 27 kantor edukasi yang tersebar di berbagai kota besar di Indonesia.",
+        },
+        {
+          question: 'Berapa besar MKBD dari Mirae Asset Sekuritas?',
+          answer:
+            'Memilih sekuritas dengan Modal Kerja Bersih Disesuaikan (MKBD) yang besar sangat penting bagi investor untuk memastikan investasi mereka aman dan mengurangi risiko kebangkrutan sekuritas. MKBD Mirae Asset Sekuritas per juli 2024 mencapai Rp 1,4 Triliun, menjadikannya yang terbesar di Indonesia.',
+        },
+        {
+          question: 'Apakah Mirae Asset Sekuritas legal dan diawasi otoritas?',
+          answer:
+            "Mirae Asset Sekuritas secara aktif terdaftar sebagai anggota bursa dan diawasi OJK.",
+        },
+        {
+          question: "Apa saja produk dan layanan Mirae Asset Sekuritas?",
+          answer:
+            "Transaksi saham, obligasi untuk ritel dan korporasi, reksa dana, Transaksi saham secara margin (pinjam meminjam) dan Corporate Finance (merger/akuisisi, pencatatan saham dan obligasi di Bursa Efek Indonesia).",
+        },
+        {
+          question: 'Jenis akun apa saja yang dimiliki Mirae Asset Sekuritas?',
+          answer:
+            "Ada 4 jenis account yaitu Akun Regular, Akun Margin, Akun Day Trade, dan Akun Syariah.",
+        },
+        {
+          question: 'Berapa Fee transaksi di Mirae Asset Sekuritas?',
+          answer:
+            "Fee beli 0,15% jual 0,25% all in, no biaya admin no biaya bulanan no minimum transaksi.",
+        },
+        {
+          question: 'Bagaimana nasabah bertransaksi saham?',
+          answer:
+            "Dengan HOTS dekstop dan M-STOCK Mobile nasabah dapat bertransaksi saham kapanpun dan dimanapun selama terhubung dengan internet. HOTS dekstop dan M-STOCK Mobile dilengkapi dengan fitur yang memudahkan Anda bertransaksi saham yaitu Automatic Order, Trailing Stop, Multi Chart, dan lainnya.",
+        },
+        {
+          question: 'Apa keuntungan buka akun Mirae Asset Sekuritas lewat Pak Antoni?',
+          answer: 'Free join group VIP Nasabah Mirae Asset Sekuritas, Updates informasi investasi berkualitas tinggi, Konsultasi portfolio, rekomendasi saham Investing dan trading, dibimbing dari nol sampai pro.',
+        },
+      ]
+    }}
   />
   
   <!-- Type of Investment ******************* -->

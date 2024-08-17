@@ -6,8 +6,16 @@ import Announcement from '~/components/widgets/Announcement.astro';
 import FloatingButton from '~/components/ui/FloatingButton.astro';
 
 import { headerData, footerData } from '~/navigation';
+import { LINKS } from "../utils/cta";
+
+import LogoOjk from '~/assets/images/logos/mirae-logo-partner-ojk.png';
+import LogoIdx from '~/assets/images/logos/mirae-logo-partner-idx.png';
+import LogoIdclear from '~/assets/images/logos/mirae-logo-partner-id-clear.png';
+import LogoKsei from '~/assets/images/logos/mirae-logo-partner-ksei.png';
+import LogoSipf from '~/assets/images/logos/mirae-logo-partner-sipf.png';
 
 import type { MetaData } from '~/types';
+import Image from "../components/common/Image.astro";
 
 export interface Props {
   metadata?: MetaData;
@@ -28,6 +36,51 @@ const { metadata } = Astro.props;
   </main>
   <slot name="footer">
     <FloatingButton />
-    <Footer {...footerData} />
+    <Footer {...footerData}>
+      <Fragment slot="footNote">
+        <div>
+          <span class="font-bold text-primary">PT Mirae Asset Sekuritas Indonesia</span> berizin dan diawasi oleh Otoritas Jasa Keuangan (OJK)
+          <div class="w-64">
+            <div class="grid grid-cols-5 mt-3 items-center gap-4">
+              <a href={LINKS.OJK}>
+                <Image
+                  src={LogoOjk}
+                  alt="Logo OJK"
+                  width={80}
+                />
+              </a>
+              <a href={LINKS.IDX}>
+                <Image
+                  src={LogoIdx}
+                  alt="Logo IDX"
+                  width={80}
+                />
+              </a>
+              <a href={LINKS.IDCLEAR}>
+                <Image
+                  src={LogoIdclear}
+                  alt="Logo ID Clear"
+                  width={80}
+                />
+              </a>
+              <a href={LINKS.KSEI}>
+                <Image
+                  src={LogoKsei}
+                  alt="Logo KSEI"
+                  width={80}
+                />
+              </a>
+              <a href={LINKS.SIPF}>
+                <Image
+                  src={LogoSipf}
+                  alt="Logo SIPF"
+                  width={80}
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </Fragment>
+    </Footer>
   </slot>
 </Layout>
