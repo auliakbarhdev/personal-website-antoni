@@ -1,0 +1,54 @@
+---
+import Headline from '~/components/ui/Headline.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import Button from '~/components/ui/Button.astro';
+import Image from '~/components/common/Image.astro';
+import type { Testimonials as Props } from '~/types';
+
+const {
+  title = '',
+  subtitle = '',
+  tagline = '',
+  testimonials = [],
+  callToAction,
+
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props;
+---
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-6xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
+  <Headline title={title} subtitle={subtitle} tagline={tagline} />
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {
+      testimonials &&
+        testimonials.map(({ title, image }) => (
+          <div class="flex h-auto">
+            <div class="flex flex-col p-4 md:p-6 rounded-md shadow-xl dark:shadow-none dark:border dark:border-slate-600">
+              {title && <h2 class="text-lg font-medium leading-6 pb-4">{title}</h2>}
+              {image && (
+                <Image
+                  class="h-[400px] w-[400px] rounded border border-slate-200 dark:border-slate-600 min-w-full min-h-full"
+                  width={400}
+                  height={400}
+                  widths={[400, 768]}
+                  layout="fixed"
+                  {...image}
+                />
+              )}
+            </div>
+          </div>
+        ))
+    }
+  </div>
+  {
+    callToAction && (
+      <div class="flex justify-center mx-auto w-fit mt-8 md:mt-12 font-medium">
+        <Button {...callToAction} />
+      </div>
+    )
+  }
+</WidgetWrapper>
