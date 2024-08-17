@@ -9,7 +9,7 @@ Halo Sobat Investor! Saya Antoni, Investment Specialist dari Mirae Asset Sekurit
 
 ## Panduan Pembuatan Akun Mirae Asset Sekuritas Terbaru 2024
 
-[![Panduan_Pembuatan_Akun_Mirae_Asset_Sekuritas](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Panduan_Pembuatan_Akun_Mirae_Asset_Sekuritas](https://img.youtube.com/vi/RNqyxpV24tc/0.jpg)](https://www.youtube.com/watch?v=RNqyxpV24tc)
 
 ## Persiapan
 
@@ -37,14 +37,16 @@ Halo Sobat Investor! Saya Antoni, Investment Specialist dari Mirae Asset Sekurit
 
 ## Contoh Foto Persyaratan Yang Benar
 
-[![App Platorm](https://placehold.co/600x400)](https://placehold.co/600x400)
+[![Panduan_Foto_eKTP](https://yukinvestasisaham.com/_astro/guide-1.DHY1IrqF_9Sm6X.webp)](https://yukinvestasisaham.com/_astro/guide-1.DHY1IrqF_9Sm6X.webp)
+[![Panduan_Foto_Selfie](https://yukinvestasisaham.com/_astro/guide-2.pP64RpTn_Z2awuaP.webp)](https://yukinvestasisaham.com/_astro/guide-2.pP64RpTn_Z2awuaP.webp)
+[![Panduan_Foto_NPWP](https://yukinvestasisaham.com/_astro/guide-3.C_UtyQp6_Z2idyF1.webp)](https://yukinvestasisaham.com/_astro/guide-3.C_UtyQp6_Z2idyF1.webp)
 
 > Pastikan Mengisi Referral Code Pak Antoni: **3103138**
 
 [![App Platorm](https://placehold.co/600x400)](https://placehold.co/600x400)
 
 Klik untuk mulai pendaftaran:
-[![Mulai Investasi Saham](https://res.cloudinary.com/dargzftrg/image/upload/v1723298738/mirae-asset/buttons/mgjuxysu2q0l1nx7p9ge.png)](https://google.com)
+[![Mulai Investasi Saham](https://res.cloudinary.com/dargzftrg/image/upload/v1723298738/mirae-asset/buttons/mgjuxysu2q0l1nx7p9ge.png)](https://login.miraeasset.co.id/registration/oe?referralcode=3103138)
 
 ## Hubungi Saya
 

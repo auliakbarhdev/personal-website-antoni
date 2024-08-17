@@ -12,14 +12,16 @@ export const TEMPLATE_WHATSAPP_MESSAGE = {
 export const LINKS = {
   WHATSAPP: `https://wa.me/${PHONE_NUMBER}`,
   TELEGRAM: 'https://t.me/',
-  INSTAGRAM: 'https://instagram.com/',
   OPEN_ACCOUNT: `https://login.miraeasset.co.id/registration/oe?referralcode=${REFERRAL_CODE}`,
-  DOWNLOAD: 'https://masi.id/downloadmstock/',
   PLAYSTORE_MSTOCK: 'https://play.google.com/store/apps/details?id=id.co.miraeasset.stock',
   APPSTORE_MSTOCK: 'https://apps.apple.com/app/m-stock/id1670096144',
   TUTORIAL_MSTOCK: 'https://youtube.com/playlist?list=PLgVr6beQ0uOLcXn7zcntnMrJrMnc13Ngm&si=aBByffYIf8G9QkTk',
   USER_GUIDE_MSTOCK: 'https://drive.google.com/file/d/1h-X-m7ZjPlaH2xgKayWov7yKNp26Ti_o/view?usp=sharing',
   PIN_MAP_OFFICE: 'https://maps.app.goo.gl/bBY5kjRKvz1kajYSA',
+  YOUTUBE: 'https://youtube.com/@mulaiinvestasisaham?si=oY8KXzS_LYvYZIv7',
+  INSTAGRAM: 'https://www.instagram.com/sahaminsight',
+  LINKEDIN: 'http://linkedin.com/in/antoni-ft',
+  WHATSAPP_GROUP: 'https://chat.whatsapp.com/GxbNAxWu5j26ERZUuGmnNt',
 };
 
 export const linkToWhatsapp = (message?: keyof typeof TEMPLATE_WHATSAPP_MESSAGE) => {

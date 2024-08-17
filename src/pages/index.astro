@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
+import Image from '~/components/common/Image.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
@@ -8,11 +9,13 @@ import Button from '~/components/ui/Button.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
+import InvestmentTypes from '~/components/widgets/InvestmentTypes.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import MstockImageGif from '~/assets/images/home/mstock.gif';
 
+import Playstore from '~/assets/images/download-android.png';
+import Appstore from '~/assets/images/download-ios.png';
 import { linkToWhatsapp, Constants, LINKS } from '~/utils/cta';
 
 const { TEMPLATE_WHATSAPP_MESSAGE: {
@@ -230,8 +233,35 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
     </Fragment>
   </Content>
   
-  <div class="flex justify-center items-center pb-16 bg-blue-50 dark:bg-transparent">
-    <Button variant="primary" text="Download Sekarang" icon="tabler:download" href={LINKS.DOWNLOAD} />
+  <div class="flex justify-center items-center dark:bg-transparent py-12 px-6 bg-slate-50">
+    <div class="grid mx-auto grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-8 items-center">
+      <div id="download-buttons" class="flex flex-col items-center">
+        <!--<span class="text-muted">Download Aplikasi M-STOCK</span>-->
+        <div id="market-places" class="relative">
+          <a href={LINKS.PLAYSTORE_MSTOCK} target="_blank" class="h-14 flex items-center justify-center">
+            <Image
+              src={Playstore}
+              alt="Play Store Android"
+              loading="eager"
+              width={160}
+              height={56}
+              class="mx-auto"
+            />
+          </a>
+          <a href={LINKS.APPSTORE_MSTOCK} target="_blank" class="h-14 flex items-center justify-center">
+            <Image
+              src={Appstore}
+              alt="App Store iOS"
+              loading="eager"
+              width={160}
+              class="mx-auto bg"
+            />
+          </a>
+        </div>
+      </div>
+      <Button variant="primary" text="Video Tutorial" icon="tabler:video" href={LINKS.YOUTUBE} target="_blank" />
+      <Button variant="secondary" text="User Guide" icon="fluent-mdl2:learning-tools" href={LINKS.USER_GUIDE_MSTOCK} target="_blank" />
+    </div>
   </div>
 
   <!--&lt;!&ndash; Features2 Widget ************** &ndash;&gt;-->
@@ -358,17 +388,56 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
       },
     ]}
   />
+  
+  <!-- Type of Investment ******************* -->
+  
+  <InvestmentTypes
+    title="Pilih Aset Sesuai Tujuan Finansial"
+    subtitle="Aset investasi dari risiko paling rendah ke tinggi"
+    items={[
+      {
+        icon: 'tabler:trending-up',
+        title: 'Saham',
+        description:
+          "600+ saham Indonesia untuk tingkatkan peluang keuntungan",
+      },
+      {
+        icon: 'fluent-mdl2:money',
+        title: 'Reksa dana',
+        description:
+          "Produk reksa dana terbaik dengan harga mulai Rp10.000",
+      },
+      {
+        icon: 'tabler:certificate',
+        title: 'Obligasi',
+        description:
+          "560+ obligasi Republik Indonesia paling lengkap",
+      },
+      {
+        icon: 'tabler:chart-bar',
+        title: 'Exchange Traded Fund (ETF)',
+        description:
+          "Peluang transaksi banyak saham, tingkatkan peluang cuan",
+      },
+      {
+        icon: 'flowbite:clipboard-list-outline',
+        title: 'Structure Warrant',
+        description:
+          "Raih potensi keuntungan tanpa batas",
+      },
+    ]}
+  />
 
   <!-- Stats Widget ****************** -->
 
-  <Stats
-    stats={[
-      { title: 'Saham', amount: '800+' },
-      { title: 'Transaction Value', amount: '~1,4T' },
-      { title: 'Market Share', amount: '8,15%' },
-      { title: 'Investment Specialist', amount: '500+' },
-    ]}
-  />
+  <!--<Stats-->
+  <!--  stats={[-->
+  <!--    { title: 'Saham', amount: '800+' },-->
+  <!--    { title: 'Transaction Value', amount: '~1,4T' },-->
+  <!--    { title: 'Market Share', amount: '8,15%' },-->
+  <!--    { title: 'Investment Specialist', amount: '500+' },-->
+  <!--  ]}-->
+  <!--/>-->
 
   <!-- CallToAction Widget *********** -->
 

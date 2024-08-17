@@ -145,10 +145,10 @@ export const footerData = {
     {
       title: 'Platform',
       links: [
-        { text: 'Android', href: LINKS.PLAYSTORE_MSTOCK },
-        { text: 'iOS', href: LINKS.APPSTORE_MSTOCK },
-        { text: 'Tutorial', href: LINKS.TUTORIAL_MSTOCK },
-        { text: 'User Guide', href: LINKS.USER_GUIDE_MSTOCK },
+        { text: 'Android', href: LINKS.PLAYSTORE_MSTOCK, target: '_blank' },
+        { text: 'iOS', href: LINKS.APPSTORE_MSTOCK, target: '_blank' },
+        { text: 'Tutorial', href: LINKS.YOUTUBE, target: '_blank' },
+        { text: 'User Guide', href: LINKS.USER_GUIDE_MSTOCK, target: '_blank' },
       ],
     },
     // {
@@ -171,9 +171,9 @@ export const footerData = {
     { text: 'Kode Referral: 3103138', href: LINKS.OPEN_ACCOUNT },
   ],
   socialLinks: [
-    { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
+    { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: LINKS.YOUTUBE },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: LINKS.INSTAGRAM },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: LINKS.LINKEDIN },
     { ariaLabel: 'Whatsapp', icon: 'tabler:brand-whatsapp', href: linkToWhatsapp() },
   ],
   footNote: `
