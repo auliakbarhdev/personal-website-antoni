@@ -1,11 +1,9 @@
 ---
-title: 'Cara Membuka Akun'
+title: 'Selamat Datang di Aplikasi Pembukaan Akun Online Mirae Asset Sekuritas'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 _Last updated_: 10 Agustus 2024
-
-Halo Sobat Investor! Saya Antoni, Investment Specialist dari Mirae Asset Sekuritas. Saya akan membantu Anda dalam proses pendaftaran akun saham hingga akun Anda aktif dan siap digunakan
 
 ## Panduan Pembuatan Akun Mirae Asset Sekuritas Terbaru 2024
 
