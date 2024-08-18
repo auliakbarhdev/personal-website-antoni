@@ -1,0 +1,81 @@
+---
+title: ''
+layout: '~/layouts/MarkdownLayout.astro'
+---
+
+import { YouTube } from 'astro-embed';
+import Image from '~/components/common/Image.astro';
+import Button from '~/components/ui/Button.astro';
+import ReferralCode from '~/assets/images/refferal-code.png';
+import GuideKtp from '~/assets/images/guide-ektp.webp';
+import GuideSelfie from '~/assets/images/guide-selfie.webp';
+import GuideNpwp from '~/assets/images/guide-npwp.webp';
+import { LINKS, Constants } from '~/utils/cta.ts';
+import './register.styles.css';
+
+<div class="container">
+  <div class="left-content">
+    <YouTube id="RNqyxpV24tc"/>
+  </div>
+
+  <div class="right-content">
+    <span class="responsive-title">Selamat Datang di <br/>Aplikasi Pembukaan Akun Online <br/>Mirae Asset Sekuritas</span>
+    <p>_Last updated_: 10 Agustus 2024</p>
+    <Button variant="primary" class="no-decor" href={LINKS.OPEN_ACCOUNT} target="_blank">
+      <span class="no-decor">Daftar Sekarang</span>
+    </Button>
+  </div>
+</div>
+
+<div class="youtube-mobile">
+  <YouTube id="RNqyxpV24tc"/>
+</div>
+
+
+## Persiapan
+
+### Syarat membuka akun Mirae Asset Sekuritas Online:
+
+1. Pendaftaran akun regular.
+2. Warga negara Indonesia (Warga negara asing dapat mendaftar dengan mengisi form fisik).
+3. Siapkan KTP, NPWP (jika ada), Nomor HP Aktif dan Nomor Rekening Bank
+4. Minimal deposit awal 10jt, deposit dilakukan setelah mendapat rekening investor.
+
+
+### Hal-hal yang perlu diperhatikan saat mengisi formulir online
+
+- Pastikan **email** dan **no hp** yang diinput adalah valid.
+
+- Kolom pengisian kode referal diisi kode referral Pak Antoni: **3103138**.
+
+- No RT/RW jika tidak ada diisi angka 0. No ext tel kantor jika tidak ada diisi angka 0.
+
+- Pilih salah satu bank rekening investor BRI, Mandiri, BCA, CIMB Niaga, atau Sinarmas.
+
+- Jika Anda adalah mahasiswa, ibu rumah tangga, atau belum bekerja, Anda bisa mengisi data pekerjaan sebagai trader saham. Untuk panduan lebih lanjut, silakan hubungi Pak Antoni. Klik tombol WhatsApp di pojok kanan bawah.
+
+- Harap dicatat di tempat lain user id, password, dan pin yang sudah dibuat agar tidak lupa.
+
+## Contoh Foto Persyaratan Yang Benar
+
+<Image src={GuideKtp} alt="Panduan Foto KTP" width={600} />
+<Image src={GuideSelfie} alt="Panduan Foto Selfie" width={600} />
+<Image src={GuideNpwp} alt="Panduan Foto NPWP" width={600} />
+
+
+> Pastikan Mengisi Referral Code Pak Antoni: **3103138**
+
+<Image src={ReferralCode} alt="Refferal Code" width={400} />
+
+## Hubungi Saya
+
+Jika Anda memiliki kendala saat pembukaan akun, hubungi Pak Antoni melalui:
+
+<ul>
+  <li>
+    Whatsapp: <a href={LINKS.WHATSAPP}>{Constants.PHONE_NUMBER}</a>
+  </li>
+  <li>
+    Email: <a href={`mailto:${Constants.EMAIL}`} target="_blank">{Constants.EMAIL}</a>
+  </li>
+</ul>

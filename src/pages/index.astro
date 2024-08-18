@@ -2,9 +2,10 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Image from '~/components/common/Image.astro';
-import Hero from '~/components/widgets/Hero.astro';
+import Hero3 from '~/components/widgets/Hero3.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
 import Button from '~/components/ui/Button.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
@@ -16,6 +17,7 @@ import MstockImageGif from '~/assets/images/home/mstock.gif';
 
 import Playstore from '~/assets/images/download-android.png';
 import Appstore from '~/assets/images/download-ios.png';
+import Partner1 from '~/assets/images/logos/partner-logo-saham-insight.png';
 import { linkToWhatsapp, Constants, LINKS } from '~/utils/cta';
 
 import Testimonial_01 from '~/assets/images/testimonoals/testimonial-1.png';
@@ -72,13 +74,13 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
 </script>
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
+  <!-- Hero3 Widget ******************* -->
 
-  <Hero
+  <Hero3
     image={{ src: '~/assets/images/home/main.png', alt: 'Mirae Asset Sekuritas Image' }}
   >
     <Fragment slot="title">
-      Percayakan Investasimu,<br/>pada<br class="md:hidden" />
+      Percayakan Investasimu, pada<br class="lg:hidden" />
       <span class="text-primary highlight"> Mirae Asset Sekuritas</span>!
     </Fragment>
 
@@ -106,7 +108,7 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
           </Button>
         </div>
     </Fragment>
-  </Hero>
+  </Hero3>
 
   <!-- Note Widget ******************* -->
 
@@ -269,70 +271,6 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
     </div>
   </div>
 
-  <!--&lt;!&ndash; Features2 Widget ************** &ndash;&gt;-->
-  
-  <!--<Features2-->
-  <!--  title="Most used widgets"-->
-  <!--  subtitle="Provides frequently used components for building websites using Tailwind CSS"-->
-  <!--  tagline="Components"-->
-  <!--  items={[-->
-  <!--    {-->
-  <!--      title: 'Headers',-->
-  <!--      description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",-->
-  <!--      icon: 'flat-color-icons:template',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Heros',-->
-  <!--      description:-->
-  <!--        "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",-->
-  <!--      icon: 'flat-color-icons:gallery',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Features',-->
-  <!--      description:-->
-  <!--        'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',-->
-  <!--      icon: 'flat-color-icons:approval',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Content',-->
-  <!--      description:-->
-  <!--        "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",-->
-  <!--      icon: 'flat-color-icons:document',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Call-to-Action',-->
-  <!--      description:-->
-  <!--        'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',-->
-  <!--      icon: 'flat-color-icons:advertising',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Pricing',-->
-  <!--      description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',-->
-  <!--      icon: 'flat-color-icons:currency-exchange',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Testimonial',-->
-  <!--      description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',-->
-  <!--      icon: 'flat-color-icons:voice-presentation',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Contact',-->
-  <!--      description:-->
-  <!--        'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',-->
-  <!--      icon: 'flat-color-icons:business-contact',-->
-  <!--    },-->
-  <!--    {-->
-  <!--      title: 'Footers',-->
-  <!--      description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",-->
-  <!--      icon: 'flat-color-icons:database',-->
-  <!--    },-->
-  <!--  ]}-->
-  <!--&gt;-->
-  <!--  <Fragment slot="bg">-->
-  <!--    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>-->
-  <!--  </Fragment>-->
-  <!--</Features2>-->
-
   <!-- HighlightedPosts Widget ******* -->
 
   <div class="hidden md:block">
@@ -432,6 +370,34 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
       },
     ]}
   />
+
+  <Features2
+    title="Our Partners"
+    subtitle="Kami telah bekerja sama dengan berbagai partner-partner berikut:"
+    tagline="Colaboration with"
+    columns={1}
+    classes={{
+      containerItem: 'grid-cols-1',
+    }}
+    items={[
+      {
+        title: 'Saham Insight',
+        image: {
+          src: Partner1,
+          alt: 'Saham Insight Logo',
+          class: 'bg-white rounded',
+          width: 200
+        },
+        classes: {
+          panel: 'text-center items-center',
+        },
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
 
   <!-- Stats Widget ****************** -->
 

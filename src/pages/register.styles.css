@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-content {
+  flex: 2;
+  padding-right: 50px;
+}
+
+.right-content {
+  flex: 1;
+}
+
+.responsive-title {
+  display: block;
+  margin: 0;
+}
+
+.youtube-mobile {
+  display: none;
+}
+
+.no-decor {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 601px) {
+  .responsive-title {
+    font-size: 1.5em; /* Seperti H2 */
+    font-weight: bold;
+    line-height: 1.2;
+  }
+}
+
+/* Style untuk layar lebih kecil atau sama dengan 600px (phone) */
+@media (max-width: 600px) {
+  .responsive-title {
+    font-size: 2em; /* Seperti H1 */
+    font-weight: bold;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-content {
+    display: none;
+  }
+  
+  .right-content {
+    flex: 1;
+  }
+
+  .youtube-mobile {
+    display: block;
+    margin-top: 32px;
+  }
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin-top: 10px;
+}
