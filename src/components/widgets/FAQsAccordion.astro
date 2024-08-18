@@ -88,3 +88,19 @@ const {
 <!--Import the necessary Accordion plugin-->
 <!--https://preline.co/plugins/html/accordion.html-->
 <script is:inline src="/scripts/vendor/preline/accordion/index.js"></script>
+
+<script>
+  // Fungsi untuk me-refresh halaman hanya sekali
+  function refreshOnce() {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (window.location.pathname === '/' && !urlParams.has('home')) {
+      // Tambahkan parameter ke URL
+      urlParams.set('home', 'true');
+      window.location.search = urlParams.toString();
+    }
+  }
+
+  // Event listener untuk menjalankan fungsi refreshOnce saat halaman dimuat
+  document.addEventListener('DOMContentLoaded', refreshOnce);
+  document.addEventListener('astro:page-load', refreshOnce);
+</script>
