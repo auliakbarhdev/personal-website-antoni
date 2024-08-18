@@ -1,7 +1,8 @@
 const PHONE_NUMBER: string = '+6282213548693';
 const REFERRAL_CODE: string = '3103138';
 const EMAIL: string = 'antoni@miraeasset.co.id';
-const ADDRESS: string = 'Jl. Pluit Sakti Raya No.31 A, RT.2/RW.6, Pluit, Kec. Penjaringan, Jakarta Utara, Daerah Khusus Ibu Kota Jakarta 14450';
+const OFFICE_NAME: string = 'Mirae Asset Sekuritas Indonesia (Central Park)';
+const ADDRESS: string = 'Ruko GSA (Garden Shopping Arcade) Central Park 8ED – 8EE Jl. Letjend S. Parman, Grogol Petamburan, Jakarta Barat 11470';
 const W3FORMS: string = '644c4c88-76b0-483e-8a3e-e44ceac2d282';
 
 export const TEMPLATE_WHATSAPP_MESSAGE = {
@@ -46,6 +47,7 @@ type TConstant = {
   PHONE_NUMBER: string
   EMAIL: string
   ADDRESS: string
+  OFFICE_NAME: string
   W3FORMS: string
   TEMPLATE_WHATSAPP_MESSAGE: Record<keyof typeof TEMPLATE_WHATSAPP_MESSAGE, keyof typeof TEMPLATE_WHATSAPP_MESSAGE>
 }
@@ -55,6 +57,7 @@ export const Constants: TConstant = {
   PHONE_NUMBER,
   EMAIL,
   ADDRESS,
+  OFFICE_NAME,
   W3FORMS,
   TEMPLATE_WHATSAPP_MESSAGE: {
     CLAIM_PROMO: 'CLAIM_PROMO',

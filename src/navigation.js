@@ -1,12 +1,7 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 import { LINKS, linkToWhatsapp, Constants } from './utils/cta';
-import LogoOjk from '~/assets/images/logos/mirae-logo-partner-ojk.png';
-import LogoIdx from '~/assets/images/logos/mirae-logo-partner-idx.png';
-import LogoIdclear from '~/assets/images/logos/mirae-logo-partner-id-clear.png';
-import LogoKsei from '~/assets/images/logos/mirae-logo-partner-ksei.png';
-import LogoSipf from '~/assets/images/logos/mirae-logo-partner-sipf.png';
 
-const { ADDRESS } = Constants;
+const { ADDRESS, OFFICE_NAME } = Constants;
 
 export const headerData = {
   links: [
@@ -165,7 +160,7 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'Mirae Asset Sekuritas Indonesia (Pluit)', href: LINKS.PIN_MAP_OFFICE },
+        { text: OFFICE_NAME, href: LINKS.PIN_MAP_OFFICE },
         { text: ADDRESS, href: LINKS.PIN_MAP_OFFICE },
       ],
     },
