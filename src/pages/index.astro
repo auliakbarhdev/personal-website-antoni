@@ -76,9 +76,7 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
 <Layout metadata={metadata}>
   <!-- Hero3 Widget ******************* -->
 
-  <Hero3
-    image={{ src: '~/assets/images/home/main.png', alt: 'Mirae Asset Sekuritas Image' }}
-  >
+  <Hero3>
     <Fragment slot="title">
       Percayakan Investasimu, pada<br class="lg:hidden" />
       <span class="text-primary highlight"> Mirae Asset Sekuritas</span>!
@@ -88,6 +86,28 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
       <span class="inline">
         <span class="font-semibold dark:text-white">Buka akun sekarang</span>! <br class="sm:hidden" />Dapatkan <span class="font-semibold text-accent dark:text-white">cashback</span>, Grup VIP Nasabah dan hadiah spesial.</span
       >
+    </Fragment>
+    
+    <Fragment slot="image">
+      <Image
+        class="mx-auto rounded-md w-full"
+        widths={[400, 768, 1024, 2040]}
+        sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+        loading="eager"
+        width={773}
+        height={576}
+        src="~/assets/images/home/main.png"
+        alt="Mirae Asset Sekuritas Image"
+      />
+      <Image
+        class="absolute -bottom-4 right-0"
+        widths={[400, 768, 1024, 2040]}
+        sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+        loading="eager"
+        width={300}
+        src="~/assets/images/dashboard-grant-diagram.png"
+        alt="Diagram Image"
+      />
     </Fragment>
     
     <Fragment slot="actions">
