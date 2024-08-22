@@ -1,5 +1,6 @@
 ---
 import '~/assets/styles/tailwind.css';
+import disableCopy from '~/scripts/disableCopy';
 
 import { I18N } from 'astrowind:config';
 
@@ -36,6 +37,20 @@ const { language, textDirection } = I18N;
     <SiteVerification />
     <Analytics />
 
+    <!-- Disable copy to clipboard -->
+    <script client:load>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        // Menonaktifkan klik kanan
+        document.addEventListener('contextmenu', (e) => {
+          e.preventDefault();
+        });
+
+        // Mencegah penyalinan teks
+        document.addEventListener('copy', (e) => {
+          e.preventDefault();
+        });
+      });
+    </script>
     <!-- Comment the line below to disable View Transitions -->
     <ViewTransitions fallback="swap" />
   </head>
