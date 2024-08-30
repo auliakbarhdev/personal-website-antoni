@@ -97,7 +97,7 @@ metadata:
 - Jika ingin melihat preview artikel, klik tombol "Preview". 
 - Bila sudah selesai, klik tombol "Commit changes..." pada sudut kanan atas.
 
-> Untuk leboh mudah menuliskan artikel dengan tipe markdown, Anda dapat menuliskan artikel melalui [google docs](https://docs.google.com/document).
+> Untuk lebih mudah menuliskan artikel dengan tipe markdown, Anda dapat menuliskan artikel melalui [google docs](https://docs.google.com/document).
 > Setelah menuliskan artikel di google docs, Anda bisa download file melalui menu File > Download > Markdown (.md).
 
 
