@@ -4,6 +4,7 @@
 - [Pendahuluan](#Pendahuluan)
 - [Persiapan](#Persiapan)
 - [Cara menambah artikel](#Cara-menambah-artikel)
+- []
 
 
 ## Pendahuluan
@@ -101,3 +102,9 @@ metadata:
 > Setelah menuliskan artikel di google docs, Anda bisa download file melalui menu File > Download > Markdown (.md).
 
 
+## Mengganti Video YouTube
+
+- Buka dan edit file [register.mdx](https://github.com/auliakbarhdev/personal-website-antoni/edit/main/src/pages/register.mdx)
+- Temukan ada tag `<YouTube id="some_id_from_youtube" />` dan ubah id video sesuai dengan id video yang ingin diubah.
+
+> Untuk mendapatkan id video youtube, kamu perlu membuat video di youtube menjadi public terlebih dahulu. Lalu buka link video youtube tersebut dan kamu akan mendapatkan link seperti contoh berikut: `https://www.youtube.com/watch?v=ini_id_vide_yang_diperlukan`.
