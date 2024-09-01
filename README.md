@@ -4,7 +4,7 @@
 - [Pendahuluan](#Pendahuluan)
 - [Persiapan](#Persiapan)
 - [Cara menambah artikel](#Cara-menambah-artikel)
-- []
+- [Mengganti Video YouTube](#Mengganti-Video-YouTube)
 
 
 ## Pendahuluan
