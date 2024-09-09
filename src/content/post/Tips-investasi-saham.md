@@ -3,7 +3,7 @@ publishDate: 2024-09-9T14:18:00Z
 author: Antoni 
 title: 7 Tips Memulai Investasi Saham Bagi Pemula  
 excerpt: Sebagai pemula, kamu perlu paham risiko yang ada, pilih perusahaan sekuritas yang pas, pakai uang dingin, dan tetap disiplin dalam rencana serta analisis saham supaya investasimu bisa maksimal. 
-image: [https://img.freepik.com/free-photo/business-proposal-bidding-hands-holding-money_53876-127115.jpg t=st=1725867132~exp=1725870732~hmac=93d0a12890a7f470a7cfbf61b9108173557fcbe88d18173acd6756d94d4af95a&w=1060](https://img.freepik.com/free-photo/hand-holding-money_23-2151027590.jpg?t=st=1725868648~exp=1725872248~hmac=8017ff1ad2cacd6a448684505092df0ff954b2712e38b5f32aebd07f028b0e43&w=740) 
+image: https://img.freepik.com/free-photo/hand-holding-money_23-2151027590.jpg t=st=1725868648~exp=1725872248~hmac=8017ff1ad2cacd6a448684505092df0ff954b2712e38b5f32aebd07f028b0e43&w=740
 showImageHeaderInArticle: true
 category: Tips saham
 tags:
