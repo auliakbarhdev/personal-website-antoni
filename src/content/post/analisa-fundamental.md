@@ -2,7 +2,7 @@
 publishDate: 2024-08-18T00:00:00Z
 title: Analisa Fundamental - Kunci Memilih Saham Unggulan
 excerpt: Analisis fundamental adalah salah satu metode pengukuran yang digunakan para investor untuk mengetahui keamanan suatu nilai saham.
-image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1725893460/analysis-innovation-opportunities-strengths-strategic_fq0eev.jpg
+image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1725897762/discussing-charts_hife1o.jpg 
 tags:
   - analisis
   - saham
