@@ -3,7 +3,7 @@ publishDate: 2024-09-09T22:35:00Z
 author: Antoni 
 title: Syarat Open Account Mirae Asset Sekuritas Online  
 excerpt: Hi Sobat Investor! Saya Antoni, Investment Specialist Mirae Asset Sekuritas yang akan memandu pendaftaran akun saham Anda sampai aktif. 
-image: [https://www.topbusiness.id/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-25-at-12.17.58.jpeg ](https://res.cloudinary.com/dn0vwmvyv/image/upload/v1725898327/WhatsApp-Image-2022-01-25-at-12.17.58_t2zczo.jpg)
+image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1725898327/WhatsApp-Image-2022-01-25-at-12.17.58_t2zczo.jpg
 showImageHeaderInArticle: true
 category: buka akun 
 tags:
