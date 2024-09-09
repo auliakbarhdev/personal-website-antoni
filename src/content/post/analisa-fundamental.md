@@ -57,7 +57,7 @@ Ada enam rasio keuangan penting yang perlu diperhatikan dalam analisis fundament
 
 6\. DER (Debt to Equity Ratio) \- Rasio Utang terhadap Ekuitas
 
-Pada intinya, analisis fundamental adalah hal yang perlu dipahami oleh setiap investor. Analisa ini dapat membantu mengurangi resiko kerugian dengan memeriksa beberapa indikator terkait. 3 tahun terkahir ini banyak perkembangan analisa fundamental yaitu salah satunya corporate action yang menjadi motor penggerak harga saham dan masih banyak lagi. Pelajari lebih lanjut dengan menjadi nasabah mirae asset. 
+Pada intinya, analisis fundamental adalah hal yang perlu dipahami oleh setiap investor. Analisa ini dapat membantu mengurangi resiko kerugian dengan memeriksa beberapa indikator terkait. 3 tahun terkahir ini banyak perkembangan analisa fundamental yaitu salah satunya corporate action yang menjadi motor penggerak harga saham dan masih banyak lagi. Pelajari lebih lanjut dengan [menjadi nasabah mirae asset](https://wa.me/6282213548693?text=Halo,%20Saya%20ingin%20menjadi%20nasabag%20mirae%20asset%20sekuritas.). 
 
 
 
