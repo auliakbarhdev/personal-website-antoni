@@ -34,7 +34,8 @@ Cari informasi mendalam tentang perusahaan tempat kamu akan berinvestasi. Periks
 ## 6. **Pelajari cara analisis saham** 
 Seiring berjalannya waktu, kamu akan terbiasa dengan fluktuasi harga saham. Tapi ingat, jangan hanya mengandalkan intuisi. Lakukan analisis yang matang, seperti memeriksa laporan keuangan perusahaan atau mengikuti berita terbaru tentang perusahaan tersebut. Dengan analisis yang baik, kamu bisa membuat keputusan yang lebih tepat.
 
-## 7. **Tetap realistis dan kendalikan emosi** Jangan berharap hasil instan dari investasi saham. Kebebasan finansial adalah proses panjang yang membutuhkan kesabaran. Jangan mudah terbawa emosi, baik itu karena euforia maupun frustrasi. Tetap berpegang pada data dan fakta dalam setiap keputusan investasimu.
+## 7. **Tetap realistis dan kendalikan emosi** 
+Jangan berharap hasil instan dari investasi saham. Kebebasan finansial adalah proses panjang yang membutuhkan kesabaran. Jangan mudah terbawa emosi, baik itu karena euforia maupun frustrasi. Tetap berpegang pada data dan fakta dalam setiap keputusan investasimu.
 
 Itulah beberapa tips sederhana untuk kamu yang baru memulai investasi di saham. Jangan terburu-buru, lakukan semuanya dengan tenang dan penuh perhitungan agar hasilnya maksimal.
 
