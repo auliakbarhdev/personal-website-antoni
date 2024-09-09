@@ -134,6 +134,58 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
 
   <Note />
 
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials
+    title="Testimoni klien"
+    subtitle="Temukan apa yang klien katakan tentang pengalaman mereka menjadi nasabah Pak Antoni."
+    testimonials={[
+      {
+        image: {
+          src: Testimonial_01,
+          alt: 'Testimonial 01',
+        },
+      },
+      {
+        image: {
+          src: Testimonial_02,
+          alt: 'Testimonial 02',
+        },
+      },
+      {
+        image: {
+          src: Testimonial_03,
+          alt: 'Testimonial 03',
+        },
+      },
+      {
+        image: {
+          src: Testimonial_04,
+          alt: 'Testimonial 04',
+        },
+      },
+      {
+        image: {
+          src: Testimonial_05,
+          alt: 'Testimonial 05',
+        },
+      },
+      {
+        image: {
+          src: Testimonial_06,
+          alt: 'Testimonial 06',
+        },
+      },
+    ]}
+    callToAction={{
+      text: 'Join Group gratis',
+      icon: 'tabler:brand-whatsapp',
+      variant: 'primary',
+      href: LINKS.WHATSAPP_GROUP,
+      target: '_blank',
+    }}
+  />
+
   <!-- Features Widget *************** -->
 
   <Features
@@ -453,57 +505,4 @@ targetDate.setHours(24, 0, 0, 0); // Set target date to midnight
       Masa depan yang cerah dimulai dari langkah kecil. Investasikan uang Anda sekarang untuk masa depan yang lebih sejahtera. <br class="hidden md:inline" />Tunggu apa lagi?
     </Fragment>
   </CallToAction>
-
-
-  <!-- Testimonials Widget *********** -->
-
-  <Testimonials
-    title="Testimoni klien"
-    subtitle="Temukan apa yang klien katakan tentang pengalaman mereka menjadi nasabah Pak Antoni."
-    testimonials={[
-      {
-        image: {
-          src: Testimonial_01,
-          alt: 'Testimonial 01',
-        },
-      },
-      {
-        image: {
-          src: Testimonial_02,
-          alt: 'Testimonial 02',
-        },
-      },
-      {
-        image: {
-          src: Testimonial_03,
-          alt: 'Testimonial 03',
-        },
-      },
-      {
-        image: {
-          src: Testimonial_04,
-          alt: 'Testimonial 04',
-        },
-      },
-      {
-        image: {
-          src: Testimonial_05,
-          alt: 'Testimonial 05',
-        },
-      },
-      {
-        image: {
-          src: Testimonial_06,
-          alt: 'Testimonial 06',
-        },
-      },
-    ]}
-    callToAction={{
-      text: 'Join Group gratis',
-      icon: 'tabler:brand-whatsapp',
-      variant: 'primary',
-      href: LINKS.WHATSAPP_GROUP,
-      target: '_blank',
-    }}
-  />
 </Layout>
