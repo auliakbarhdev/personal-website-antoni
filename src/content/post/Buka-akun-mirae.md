@@ -10,7 +10,7 @@ tags:
   - buka akun
   - mirae asset
 metadata:
-  canonical: https://mulaiinvestasisaham.com/
+  canonical: https://mulaiinvestasisaham.com/buka-akun-mirae-asset-sekuritas-online
 ---
 
 **Berikut adalah syarat untuk membuka akun di Mirae Asset Sekuritas Online:**
