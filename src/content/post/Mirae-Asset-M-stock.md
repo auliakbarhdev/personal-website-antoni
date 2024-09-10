@@ -13,7 +13,7 @@ metadata:
 
 PT Mirae Asset Sekuritas Indonesia meluncurkan aplikasi mobile baru bernama M-STOCK untuk mempermudah pengguna dalam berinvestasi dan bertransaksi saham, dengan target meningkatkan jumlah investor aktif di pasar modal. Aplikasi ini melengkapi fitur aplikasi sebelumnya, HOTS, dan menawarkan pengalaman lebih user-friendly untuk menjangkau lebih banyak investor, khususnya investor baru. Saat ini, persentase investor aktif di Mirae mencapai lebih dari 35%, jauh di atas rata-rata industri sebesar 20%.
 
-![Aplikasi Mstock][image1]
+![][image1]
 
 Per Mei 2024, jumlah investor saham aktif di Indonesia tercatat sebanyak 1,14 juta dari total 5,72 juta investor saham, dengan total investor pasar modal mencapai 12,93 juta orang. Mirae Asset memiliki sekitar 300.000 nasabah, termasuk 30.000 investor reksa dana.
 
