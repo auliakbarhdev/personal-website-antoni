@@ -3,7 +3,7 @@ publishDate: 2024-09-10T21:10:00Z
 title: Luncurkan Aplikasi M-STOCK, Mirae Asset Tingkatkan Investor Aktif Pasar Modal untuk Dukung Kemapanan
 excerpt: PT Mirae Asset Sekuritas Indonesia meluncurkan aplikasi M-STOCK untuk mempermudah transaksi saham dengan dukungan teknologi canggih dan fitur lengkap untuk investasi yang lebih mudah dan nyaman.
 image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1725984837/download_xhagmb.jpg
-showImageHeaderInArticle: true
+showImageHeaderInArticle: false 
 tags: mirae asset
   - Mirae
   - Buka akun 
