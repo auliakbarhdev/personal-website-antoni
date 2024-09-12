@@ -3,7 +3,7 @@ publishDate: 2024-09-12T11:34:00Z
 author: Antoni
 title: Mirae Asset Sekuritas Perkirakan Arus Modal Asing ke Indonesia Semakin Menguat
 excerpt: Arus modal asing ke Indonesia melonjak, terutama di saham dan obligasi. Tren ini diproyeksi berlanjut hingga akhir 2024, meski investor perlu mewaspadai risiko politik dan ketidakpastian global.
-image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1726116185/hq720_gvsdxt.jpg
+image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1726117402/Mirae-1-scaled_tlibf1.jpg
 showImageHeaderInArticle: True
 category: Analisa Saham
 tags:
