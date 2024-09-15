@@ -3,7 +3,7 @@ publishDate: 2024-09-15T23:30:00Z
 author: Antoni
 title: IHSG Berpotensi Tembus 7.915 di Akhir 2024, Didukung Tren Penurunan Suku Bunga Global 
 excerpt: Mirae Asset Sekuritas memproyeksikan IHSG akan mencapai 7.915 di akhir 2024, didorong pemangkasan suku bunga The Fed dan BI, serta penguatan ekonomi Indonesia.
-image: https://infobanknews.com/wp-content/uploads/2024/09/IMG-20240912-WA0006.jpg 
+image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1726418673/IMG-20240912-WA0006_vxeeod.jpg 
 showImageHeaderInArticle: true
 category: Analisa Saham
 tags:
