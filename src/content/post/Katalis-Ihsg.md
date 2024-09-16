@@ -24,7 +24,7 @@ Kami melihat adanya risiko besar yang bisa memicu volatilitas jangka pendek, sep
 Kami telah merevisi perkiraan Rupiah untuk akhir tahun ini menjadi 15.415 (sebelumnya 15.825) dan untuk tahun depan menjadi 15.015 (sebelumnya 15.650). Proyeksi suku bunga BI kami tetap di 5,75% dengan asumsi Rupiah yang lebih stabil tahun ini dan tahun depan. Selain itu, dengan tren inflasi yang semakin stabil, kami menurunkan proyeksi inflasi CPI tahun ini menjadi 2,0% (sebelumnya 2,8%).
 
 **Revisi Target IHSG ke 7.915**  
-Kami percaya IHSG masih memiliki ruang untuk terus naik, didukung oleh aliran dana asing yang kuat dan pemotongan suku bunga kebijakan. Oleh karena itu, kami merevisi target IHSG akhir tahun menjadi 7.915, naik dari proyeksi sebelumnya 7.585. Kami tetap mempertahankan rekomendasi saham kami di sektor Perbankan, Barang Konsumen Non-Siklus, Barang Konsumen Siklus, Farmasi, Industri, dan Telekomunikasi, yang diperkirakan akan diuntungkan dari aliran modal asing dan pemotongan suku bunga. [Klik disini untuk buka akun Mirae Asset Sekuritas](https://login.miraeasset.co.id/registration/oe?referralcode=3103138)
+Kami percaya IHSG masih memiliki ruang untuk terus naik, didukung oleh aliran dana asing yang kuat dan pemotongan suku bunga kebijakan. Oleh karena itu, kami merevisi target IHSG akhir tahun menjadi 7.915, naik dari proyeksi sebelumnya 7.585. Kami tetap mempertahankan rekomendasi saham kami di sektor Perbankan, Barang Konsumen Non-Siklus, Barang Konsumen Siklus, Farmasi, Industri, dan Telekomunikasi, yang diperkirakan akan diuntungkan dari aliran modal asing dan pemotongan suku bunga. [Buka akun Mirae Asset Sekuritas](https://login.miraeasset.co.id/registration/oe?referralcode=3103138)
 
 **![][image1]**
 
