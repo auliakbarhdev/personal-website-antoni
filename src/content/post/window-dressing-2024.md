@@ -25,4 +25,4 @@ Mirae Asset Sekuritas telah menetapkan target IHSG mencapai level 7.915 hingga a
 Martha juga memproyeksikan adanya satu kali lagi pemangkasan suku bunga oleh BI pada kuartal keempat tahun ini sebesar 25 basis poin, yang akan membawa BI Rate ke level 5,75 persen. Di sisi lain, **The Federal Reserve** (The Fed) AS juga diprediksi akan melakukan pemangkasan suku bunga sebesar 100 basis poin hingga akhir tahun, dengan pengurangan 25 basis poin di setiap pertemuan pada bulan November dan Desember.
 
 Sejalan dengan pemangkasan suku bunga, Martha merekomendasikan sektor-sektor yang diharapkan akan berkinerja positif, seperti sektor **perbankan**, **consumer goods**, **telekomunikasi**, serta **properti**. Sektor-sektor ini dinilai memiliki potensi yang kuat untuk tumbuh di tengah penurunan suku bunga yang berkelanjutan, memberikan peluang investasi yang menjanjikan bagi para pelaku pasar. 
-[Klik disini untuk buka akun Mirae Asset Sekuritas (https://login.miraeasset.co.id/registration/oe?referralcode=3103138)
+[Klik disini untuk buka akun Mirae Asset Sekuritas](https://login.miraeasset.co.id/registration/oe?referralcode=3103138)
