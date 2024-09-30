@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-09-30T13:01:00Z
 author: Antoni
-title:  IHSG Cetak Rekor Tertinggi Sepanjang Masa, Window Dressing Tak Akan Terlalu Signifikan
+title: IHSG Cetak Rekor Tertinggi Sepanjang Masa, Window Dressing Tak Akan Terlalu Signifikan
 excerpt: IHSG cetak rekor 7.905,39. Window dressing diprediksi minim. Target akhir 2024 di 7.915, didukung pemangkasan suku bunga. Sektor perbankan, consumer goods, telekomunikasi, dan properti diproyeksi positif.
 image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1727675925/6256878_filjx0.jpg
 showImageHeaderInArticle: false
