@@ -1,6 +1,6 @@
 ---
 publishDate: 2024-10-06T16:00:00Z
-author: Antoni
+author: Research Team
 title: Lonjakan Harga Batu Bara Tembus Rekor, Dampak Kenaikan Gas dan Krisis Energi Global
 excerpt: Harga batu bara melonjak ke level tertinggi enam minggu akibat kenaikan harga gas, ketegangan di Timur Tengah, dan peningkatan permintaan dari China dan India.
 image: https://res.cloudinary.com/dn0vwmvyv/image/upload/v1728204735/coal-moving-along-conveyor-belt_mmdzya.jpg
