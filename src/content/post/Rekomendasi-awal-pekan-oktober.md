@@ -16,6 +16,8 @@ metadata:
 
 **Berikut rekomendasi saham secara teknikal untuk Senin (7/10), antara lain:**
 
+**Berikut rekomendasi saham secara teknikal untuk Senin (7/10), antara lain:**
+
 1. PT Astra International Tbk (ASII)
 
 -   Rekomendasi: Buy
@@ -25,3 +27,24 @@ metadata:
 -   Resistance: Rp 5.300
 
 ![enter image description here](https://res.cloudinary.com/dn0vwmvyv/image/upload/v1728211246/ASII_2024-10-06_16-34-02_uwzp8j.png)
+
+2. PT. Semen Indonesia Tbk (SMGR)
+
+-   Rekomendasi: Buy
+    
+-   Support: Rp 3.750
+    
+-   Resistance: Rp 4.200
+
+![enter image description here](https://res.cloudinary.com/dn0vwmvyv/image/upload/v1728211234/SMGR_2024-10-06_16-21-33_nbn2p7.png)
+
+3. PT. Perusahaan Gas Negara Tbk (PGAS)
+
+-   Rekomendasi: Buy
+    
+-   Support: Rp 1.420
+    
+-   Resistance: Rp 1.630
+![enter image description here](https://res.cloudinary.com/dn0vwmvyv/image/upload/v1728211310/PGAS_2024-10-06_16-47-08_nw0epu.png)
+
+**Disclaimer: Rekomendasi saham ini hanya bersifat informasi**
