@@ -12,6 +12,7 @@ tags:
   - Teknikal
 metadata:
   canonical: https://mulaiinvestasisaham.com/rekomendasi-saham-awal-pekan-oktober-2024
+---
 
 Berikut rekomendasi saham secara teknikal untuk Senin (7/10), antara lain:
 
