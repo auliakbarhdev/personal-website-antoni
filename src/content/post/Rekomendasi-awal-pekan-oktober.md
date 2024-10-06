@@ -16,8 +16,6 @@ metadata:
 
 **Berikut rekomendasi saham secara teknikal untuk Senin (7/10), antara lain:**
 
-**Berikut rekomendasi saham secara teknikal untuk Senin (7/10), antara lain:**
-
 1. PT Astra International Tbk (ASII)
 
 -   Rekomendasi: Buy
