@@ -37,5 +37,5 @@ Seiring berjalannya waktu, kamu akan terbiasa dengan fluktuasi harga saham. Tapi
 ## 7. Tetap realistis dan kendalikan emosi 
 Jangan berharap hasil instan dari investasi saham. Kebebasan finansial adalah proses panjang yang membutuhkan kesabaran. Jangan mudah terbawa emosi, baik itu karena euforia maupun frustrasi. Tetap berpegang pada data dan fakta dalam setiap keputusan investasimu.
 
-Itulah beberapa tips sederhana untuk kamu yang baru memulai investasi di saham. Jangan terburu-buru, lakukan semuanya dengan tenang dan penuh perhitungan agar hasilnya maksimal. [klik disini untuk konsultasi saham gratis](https://wa.me/6282213548693?text=Halo,%20Saya%20ingin%20berkonsultasi%20tentang%20saham%20lebih%20lanjut.)
+Itulah beberapa tips sederhana untuk kamu yang baru memulai investasi di saham. Jangan terburu-buru, lakukan semuanya dengan tenang dan penuh perhitungan agar hasilnya maksimal.
 
